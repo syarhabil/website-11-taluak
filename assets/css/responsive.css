@@ -422,3 +422,23 @@ Version      : 1.0
 		transform: rotate(56.5deg) translateX(296px);
 	}
 }
+
+/* Custom CSS */
+body {
+    background-color: #ecb02e;
+}
+
+nav {
+    background-color: black;
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+    .navbar,
+    .footer-menu ul li a {
+        color: white;
+    }
+}
